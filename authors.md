@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/AurelienNicosiaULaval/groupedChord/blob/v0.1.0/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/AurelienNicosiaULaval/groupedChord/blob/main/DESCRIPTION)
 
 Nicosia A (2026). *groupedChord: Grouped Circular Flow Diagrams*. R
 package version 0.1.0,

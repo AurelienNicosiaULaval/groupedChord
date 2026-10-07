@@ -18,7 +18,7 @@ R 4.1.0 ou ultérieur. Installer depuis GitHub :
 
 ``` r
 
-install.packages("remotes")
+install.packages(c("remotes", "knitr", "rmarkdown"))
 remotes::install_github("AurelienNicosiaULaval/groupedChord", build_vignettes = TRUE)
 library(groupedChord)
 vignette("groupedChord", package = "groupedChord")
