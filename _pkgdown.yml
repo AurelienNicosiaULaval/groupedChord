@@ -1,0 +1,25 @@
+url: https://aureliennicosiaulaval.github.io/groupedChord/
+lang: fr
+template:
+  bootstrap: 5
+  bslib:
+    bg: '#FFFFFF'
+    fg: '#263F43'
+    primary: '#276F76'
+navbar:
+  structure:
+    left: [intro, reference, articles, news]
+    right: [search, github]
+reference:
+  - title: Dessiner le cercle
+    contents:
+      - grouped_chord
+      - chord_palette
+  - title: Données et démonstration fictives
+    contents:
+      - example_workshops
+      - run_grouped_chord_demo
+  - title: Intégration à Shiny
+    contents:
+      - groupedChordOutput
+      - renderGroupedChord

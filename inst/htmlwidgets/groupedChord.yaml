@@ -1,0 +1,14 @@
+dependencies:
+  - name: groupedChord-d3
+    version: 7.9.0
+    src: htmlwidgets/lib/d3-7.9.0
+    script:
+      - d3.min.js
+      - scope.js
+  - name: groupedChord-renderer
+    version: 0.1.0
+    src: htmlwidgets/lib/groupedChord
+    script:
+      - layout.js
+      - renderer.js
+    stylesheet: groupedChord.css

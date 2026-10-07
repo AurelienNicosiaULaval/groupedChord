@@ -1,0 +1,20 @@
+Package: groupedChord
+Title: Grouped Circular Flow Diagrams
+Version: 0.1.0
+Authors@R: person("Aurélien", "Nicosia", email = "116816597+AurelienNicosiaULaval@users.noreply.github.com", role = c("aut", "cre"))
+Description: Create interactive bipartite circular flow diagrams with radial
+    labels and an outer grouping ring. A common angular scale preserves
+    link weights at both ends. Includes configurable colours, multiple widget
+    instances, keyboard interaction, SVG export and Shiny bindings.
+    Examples use entirely fictional workshop production data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: htmlwidgets
+Suggests: shiny, testthat (>= 3.0.0), knitr, rmarkdown
+VignetteBuilder: knitr
+URL: https://aureliennicosiaulaval.github.io/groupedChord/,
+    https://github.com/AurelienNicosiaULaval/groupedChord
+BugReports: https://github.com/AurelienNicosiaULaval/groupedChord/issues
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
